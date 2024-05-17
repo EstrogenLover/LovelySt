@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "GohuFont 11 Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "GohuFont 11 Nerd Font:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -99,7 +99,7 @@ static const char *colorname[] = {
 	"black",
 	"#e64553",
 	"#ff859d",
-	"#df8e1d",
+	"#2695f0",
 	"#e38a9c",
 	"#d97398",
 	"#8659d4",
@@ -109,7 +109,7 @@ static const char *colorname[] = {
 	"gray50",
 	"#d20f39",
 	"#ff85b1",
-	"#fe640b",
+	"#5bcefa",
 	"#ff91a7",
 	"#ff85b1",
 	"#9664ed",
@@ -139,7 +139,7 @@ static unsigned int defaultrcs = 257;
  * 2: Block ("█")
  * 4: Underline ("_")
  * 6: Bar ("|")
- * 7: Snowman ("☃")
+ * 7: Snowman ("")
  */
 static unsigned int cursorshape = 2;
 
